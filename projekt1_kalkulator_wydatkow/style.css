@@ -1,0 +1,103 @@
+#account-balance {
+  width: fit-content;
+  height: 50px;
+  border-style: solid;
+  border-color: rgb(41, 179, 184);
+  margin: auto;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+.account-info {
+  width: 900px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 20px 20px;
+  border-style: solid;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(logo.jpg);
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.income {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.expenses {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+ul {
+  list-style: square;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input#edit {
+  width: 50px;
+  height: 20px;
+}
+input#delete {
+  width: 50px;
+  height: 20px;
+}
+.list-item-income {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item-expenses {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  justify-content: space-between;
+  display: flex;
+  width: 100px;
+  align-items: end;
+}
+.button-edit {
+  background-color: #eddf64;
+}
+.button-delete {
+  background-color: crimson;
+}
+.submit {
+  background-color: chartreuse;
+}
+.hidden {
+  display: none;
+}
+.edit-container {
+  display: flex;
+  width: 90px;
+}
+.button-accept {
+  justify-content: space-between;
+}
+.button-cancel {
+  justify-content: space-between;
+}
+.edit-name {
+  width: inherit;
+}
+.edit-amount {
+  width: inherit;
+}

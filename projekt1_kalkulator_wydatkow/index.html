@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kalkulator wydatków - js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <logo class="logo"> </logo>
+    </nav>
+    <main>
+      <div id="account-balance">BILANS</div>
+      <div class="account-info">
+        <div class="income">
+          <h2>PRZYCHODY</h2>
+          <form id="form-income">
+            <input type="text" id="my-income" placeholder="nazwa przychodu" />
+            <input type="number" id="income-amount" placeholder="kwota" />
+            <button type="submit" class="submit">dodaj</button>
+          </form>
+          <div class="input-income">
+            <ul id="list-income"></ul>
+          </div>
+          <div class="total-income">SUMA PRZYCHODÓW :</div>
+        </div>
+        <div class="expenses">
+          <h2>WYDATKI</h2>
+          <form id="form-expenses">
+            <input type="text" id="my-expenses" placeholder="nazwa wydatku" />
+            <input type="number" id="expense-amount" placeholder="kwota" />
+            <button type="submit" class="submit">dodaj</button>
+          </form>
+          <div class="input-expenses">
+            <ul id="list-expenses"></ul>
+          </div>
+          <div class="total-expenses">SUMA WYDATKÓW :</div>
+        </div>
+      </div>
+    </main>
+    <script src="js.js"></script>
+  </body>
+</html>
